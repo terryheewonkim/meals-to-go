@@ -27,6 +27,7 @@ module.exports = {
     // Customize any rules you want to override here
     'react/prop-types': 'off',  // Disable PropTypes validation in TypeScript
     '@typescript-eslint/no-unused-vars': ['warn'],  // Warn on unused variables
+    '@typescript-eslint/no-explicit-any': ['warn'],
     'react-native/no-unused-styles': 'warn',  // Warn on unused styles in React Native
     'react-native/split-platform-components': 'warn',  // Warn if platform-specific components are not split
     'react-native/no-inline-styles': 'off',
